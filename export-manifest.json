@@ -197,23 +197,23 @@
     },
     {
       "path": "package.json",
-      "bytes": 399,
-      "sha256": "ae18ad798c08ef18ecab2dd4bea9af6b7000798cc339b3e36872113fbdf2a2f4"
+      "bytes": 423,
+      "sha256": "d457d91fc6276f8d2efbd3a05bd81d20ac01ec2988c3e5873b580bbdc8b243e0"
     },
     {
       "path": "PROJECT_INFO.md",
-      "bytes": 3626,
-      "sha256": "7554e5adb44592cfb93c4d8adad92ac5cfaca3c75e2e9ac27364a690e8549de8"
+      "bytes": 2894,
+      "sha256": "1f34ec13993a20a59df4f45ee8e04ce4d91f884d33a05755113d46c08425abb5"
     },
     {
       "path": "README.md",
-      "bytes": 7875,
-      "sha256": "f8810b81a50d4383a780a4187fdc67c95ed6e183e911c5e933f1d28550fc2beb"
+      "bytes": 8164,
+      "sha256": "63d596586ae6e8cc9e28a96c3e784c12f296474d930278c478f8bc76f48b8a98"
     },
     {
       "path": "README.vi.md",
-      "bytes": 2219,
-      "sha256": "29e54fcb6b5177d29df7163f6712e8ef5db6be397d11c201c569ca7bc00bee69"
+      "bytes": 2445,
+      "sha256": "6f0452ef27e030a8d0b3c56ef04e160ad68c52296ebf3c0a9abd4f15d3327e06"
     },
     {
       "path": "scripts/check-export.mjs",
@@ -232,18 +232,18 @@
     },
     {
       "path": "submission/full-description.md",
-      "bytes": 3153,
-      "sha256": "7339e028e58176524c4f47a0111020d91eb62ea23a9444e5e8481382865df527"
+      "bytes": 2445,
+      "sha256": "f9eaf8465999aa1f721b43852a264edde0ebcc7ee9619baceebea2a68915157b"
     },
     {
       "path": "submission/project-info.json",
-      "bytes": 3461,
-      "sha256": "c65cfc391a2c54821c42c6e91a5b553bbec31bff12cd8435a2ef782a81090286"
+      "bytes": 2736,
+      "sha256": "d934ae30f23ca3bd76e32b6fa36cd2e5e7d7289ae9c73c14e42074b3b44c509c"
     },
     {
       "path": "submission/short-description.txt",
-      "bytes": 188,
-      "sha256": "5c600d5742124a483b7156d7e69f60ad1d8f61db56b1cdbc6f71578698ba1f65"
+      "bytes": 179,
+      "sha256": "7af4883f011359b27107bf1a06752887ac2eaf462f3c26e9b00bc0b4a51c0f38"
     },
     {
       "path": "tests/amounts.test.mjs",

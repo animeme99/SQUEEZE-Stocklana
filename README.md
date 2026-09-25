@@ -2,15 +2,15 @@
   <img src="demo/assets/brand/logo.webp" alt="SQUEEZE — PIP and the token bags" width="620">
 </p>
 
-<h1 align="center">Pick the tokens. Choose one destination.</h1>
+<h1 align="center">Old shitcoins. New stock-paired plays.</h1>
 
 <p align="center">
-  <strong>A Solana wallet cleanup workspace for Stocklana.</strong><br>
-  Inspect your tokens, choose exact amounts, and explore a stock-paired meme or SOL.
+  <strong>Turn old meme bags into your next promising stock-paired meme.</strong><br>
+  Choose the shitcoins you want to exit, set your amounts, and discover a potential next play on Solana.
 </p>
 
 <p align="center">
-  <a href="https://squeeze-aya.pages.dev">Open SQUEEZE</a> ·
+  <a href="https://squeezeswap.com">Open SQUEEZE</a> ·
   <a href="docs/JUDGING_GUIDE.md">Judge walkthrough</a> ·
   <a href="PROJECT_INFO.md">Project Info</a> ·
   <a href="docs/ARCHITECTURE.md">Architecture</a> ·
@@ -23,7 +23,7 @@
 
 A wallet can become a drawer of old positions: dust, forgotten memes, tokens without prices, and balances too small to think about individually. Cleaning it up means checking what is there, deciding how much to keep, finding a destination, and reviewing a separate route for every source.
 
-SQUEEZE brings that decision into one workspace. Select the tokens you want to move, set an amount for each, and explore one destination. The selection bag is a working list; putting a token in it does not transfer custody or move funds.
+SQUEEZE is built to turn those old shitcoins and meme bags into a promising stock-paired meme token. Select the positions you want to exit, set an amount for each, and evaluate a new stock-paired destination. SOL remains an optional exit; stock-paired meme discovery is the core product. A promising candidate is not a promise of returns. The selection bag is a working list; putting a token in it does not transfer custody or move funds.
 
 For Stocklana, the focus is discovery of **memes paired with tokenized stocks**. A stock-paired meme is a meme token whose pool uses a stock token as the quote asset. **Holding the meme does not give ownership of the underlying company.**
 
@@ -45,7 +45,7 @@ The review, approval and recovery experience is available to evaluate with sampl
 
 ## Try it in three minutes
 
-The public site is [squeeze-aya.pages.dev](https://squeeze-aya.pages.dev). Choose **Try with sample tokens** to explore without connecting a wallet. For a repeatable version independent of provider availability, run this repository's sample demo:
+Website: [squeezeswap.com](https://squeezeswap.com). Domain availability is separate from this locally runnable package. On the product, choose **Try with sample tokens** to explore without connecting a wallet. For a repeatable version independent of provider availability, run this repository's sample demo:
 
 ```sh
 git clone https://github.com/animeme99/SQUEEZE-Stocklana.git

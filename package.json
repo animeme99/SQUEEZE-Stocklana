@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "SQUEEZE curated Stocklana judging package: sample demo and selected source",
+  "description": "SQUEEZE: old shitcoins into promising stock-paired meme candidates on Solana; curated judging demo",
   "packageManager": "bun@1.3.11",
   "engines": {
     "node": ">=22.16.0"

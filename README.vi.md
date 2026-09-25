@@ -2,15 +2,15 @@
 
 ![SQUEEZE](demo/assets/brand/logo.webp)
 
-**Chọn token. Chọn một đích đến.**
+**Biến shitcoin cũ thành cơ hội mới với token meme ghép cặp cổ phiếu.**
 
-SQUEEZE gom việc xem token trong ví Solana, chọn lượng cần xử lý và khám phá đích đến vào một trang. Đích đến có thể là meme token có cặp thanh khoản với token cổ phiếu, hoặc SOL. Chọn token vào túi chỉ là thao tác lựa chọn, chưa chuyển tiền.
+SQUEEZE được xây dựng để biến những shitcoin và meme token đang nằm trong ví Solana thành một token meme ghép cặp với token cổ phiếu có tiềm năng. Bạn chọn những bag muốn thoát, đặt lượng bán và đánh giá đích đến mới. Đây là trọng tâm sản phẩm; SOL là lựa chọn thoát bổ sung. “Tiềm năng” không phải cam kết lợi nhuận. Chọn token vào túi chỉ là thao tác lựa chọn, chưa chuyển tiền.
 
 **Trạng thái ngày 26/09/2026:** xem ví là điểm bắt đầu trên sản phẩm. Giao dịch mainnet đang tắt để hoàn thiện tương thích Jupiter và kiểm chứng thực thi. PIP hiện chọn theo quy tắc, chưa phải AI đang hoạt động. Meme có cặp với token cổ phiếu không đồng nghĩa sở hữu cổ phần công ty.
 
 ## Dành cho giám khảo
 
-- [Mở sản phẩm](https://squeeze-aya.pages.dev) và chọn **Try with sample tokens**.
+- [Mở sản phẩm](https://squeezeswap.com) và chọn **Try with sample tokens**.
 - [README tiếng Anh](README.md) trình bày trải nghiệm, kiến trúc và giới hạn.
 - [Hướng dẫn chấm](docs/JUDGING_GUIDE.md) có các bước thử và tình huống lỗi.
 - [Project Info](PROJECT_INFO.md) có nội dung sẵn để điền form.

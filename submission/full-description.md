@@ -1,41 +1,33 @@
-## Pick the tokens. Choose one destination.
+## Old shitcoins. New stock-paired plays.
 
-Solana wallets collect dust, forgotten positions and tokens with incomplete market data. Cleaning them up means checking balances, choosing amounts and reviewing a separate route for every token. SQUEEZE brings those decisions into one workspace.
+SQUEEZE is built to turn the shitcoins and meme bags sitting in your Solana wallet into a promising stock-paired meme token. Pick the bags you want to exit, choose how much to sell, and discover a potential next play without piecing the whole process together across different tools.
 
-## What it does
+## What you do with SQUEEZE
 
-View a wallet, select the tokens you want to move, set exact amounts, and explore one destination: a stock-paired meme or native SOL. PIP, our mascot, makes the steps easier to follow. The selection bag is a working list; adding a token does not move funds.
+1. Bring your bags: connect a wallet, view a public address, or try sample tokens.
+2. Choose what to squeeze: select the shitcoins or meme tokens you want to exit and set an amount for each.
+3. Find your next play: explore a stock-paired meme destination with PIP's rule-based suggestion, or choose one yourself.
+4. Review the move: inspect each source swap, quoted output, minimum received and fees before authorizing it in your wallet when live trading becomes available.
 
-The intended execution flow shows each source swap before the user authorizes it in their wallet. Sources execute individually, so partial completion is possible. The included sample demonstrates review, simulated approvals, receipts and recovery without connecting a wallet or sending a transaction.
+The destination is the point: give old meme positions a path into the stock-paired meme ecosystem. SOL is an optional exit, not the main product story.
 
-## Why it fits Stocklana
+## Why stock-paired memes?
 
-SQUEEZE focuses on discovering meme tokens with tokenized-stock quote pairs. The full implementation uses a stock-token registry and pool checks rather than trusting a ticker alone. A stock-paired meme is still a meme token: holding it does not give ownership of the underlying company.
+SQUEEZE focuses on meme tokens whose liquidity pools use tokenized stocks as quote assets. The full implementation uses a stock-token registry, pool checks and available market data to help identify candidates rather than trusting a ticker alone.
 
-## What makes it different
+“Promising” describes a candidate to evaluate, not a guaranteed winner. A stock-paired meme remains a meme token; holding it does not mean owning shares in the underlying company.
 
-- One page from wallet inspection to destination review.
-- Exact token amounts represented in integer atomic units.
-- Missing prices and charts stay unknown, rather than becoming misleading zeroes.
-- A visible result for each source, including partial and unresolved outcomes.
-- A fictional sample flow that judges can run without API keys or funds.
+## Built for decisions you can inspect
 
-## How it is built
+You choose the source tokens and exact amounts. Missing market data stays unknown. Each source has its own swap and result, so partial completion remains visible. Selecting tokens alone never moves funds.
 
-The product uses vanilla JavaScript modules, a Node.js API, SQLite for order and recovery state, Solana RPC, Jupiter, DexScreener, GeckoTerminal and Wallet Standard. Cloudflare Pages serves the public client. This repository includes the sample-only browser artifact, selected exact-amount source, tests, documentation and brand assets. Backend services, ranking logic, private configuration and credentials remain private; it is a curated evaluation package, not the full production source.
+## Current demo
 
-## Current status
+Wallet inspection and selection are implemented. The sample lets judges explore destination selection, review and simulated swaps without funds or API keys. Live swaps are currently disabled while Jupiter transaction compatibility and execution acceptance are completed. PIP's current selection is rule-based; AI-driven selection is planned. Sample balances, prices and outcomes are fictional.
 
-Wallet inspection is the live entry point. Live swaps are disabled while Jupiter route_v2 compatibility and execution acceptance are completed. PIP's current selection is rule-based, not live AI. The sample's tokens, prices and outcomes are fictional. Sample completion does not prove mainnet execution or trading performance.
+## Links
 
-## Try SQUEEZE
+Website: https://squeezeswap.com
+GitHub: https://github.com/animeme99/SQUEEZE-Stocklana
 
-Open https://squeeze-aya.pages.dev and choose Try with sample tokens. Select tokens, change an amount, choose a destination, review the individual swaps and simulate them. The sample also covers missing data, expired quotes, declined approvals and partial completion.
-
-Repository: https://github.com/animeme99/SQUEEZE-Stocklana
-
-For a provider-independent demo, clone the repo and run `node scripts/serve.mjs` with Node.js 22.16 or newer. No dependency install or wallet is required.
-
-## What's next
-
-Complete transaction compatibility, qualify funded-wallet execution and recovery, and enable live swaps only after those checks pass. AI-driven destination selection is planned, not presented as available today.
+The public repository includes an interactive sample demo, selected source, tests and product assets. Backend and proprietary selection services remain private. Run the sample locally with `node scripts/serve.mjs` and Node.js 22.16 or newer.
