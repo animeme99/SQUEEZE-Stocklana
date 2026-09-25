@@ -1,0 +1,1 @@
+A Solana wallet cleanup workspace: choose token amounts and explore one destination, from stock-paired memes to SOL. Try the full flow with sample data; live swaps are currently disabled.

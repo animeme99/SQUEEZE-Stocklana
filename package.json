@@ -1,0 +1,16 @@
+{
+  "name": "squeeze-stocklana",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SQUEEZE curated Stocklana judging package: sample demo and selected source",
+  "packageManager": "bun@1.3.11",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test",
+    "check": "node scripts/check-export.mjs"
+  }
+}
